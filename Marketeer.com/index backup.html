@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!----CSS & BS ----->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet"/>
+<!----Icon CDNs ----->
+    <link rel="stylesheet" href="icons/webfonts/all.min.css">
+    <link rel="stylesheet" href="icons/webfonts/fontawesome.min.css">
+    <link rel="stylesheet" href="icons/remixicon/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+<!-- Font CDNs -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+<!--#########-Title--########---->    
+    <title>Dupe</title>
+
+</head>
+<body>
+<div id="wrapper" class="container-fluid">
+<!-------------------contetnt starts----------------------------->
+<div id="mainBodyWrapper" class="container-fluid row">
+        
+    <div id="leftPartition" class="fixed-left container-fluid col-md-3 d-none d-md-block d-lg-block d-xl-block position-fixed">
+
+        <div id="slider-1" class="container-fluid">
+
+            <div id="logoSlider" class="carousel slide" data-mdb-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-mdb-target="#logoSlider" data-mdb-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#logoSlider" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-mdb-target="#logoSlider" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/image/logos/m-logo-1.jpg" class="d-block w-100 img-fluid card-img-top" alt="Wild Landscape"/>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/image/logos/m-logo-2.jpg" class="d-block w-100 img-fluid card-img-top" alt="Camera"/>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/image/logos/m-logo-1.jpg" class="d-block w-100 img-fluid card-img-top" alt="Exotic Fruits"/>
+                  </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-mdb-target="#logoSlider" data-mdb-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#logoSlider" data-mdb-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      <!------->
+        <div id="list-1" class="container-fluid">
+
+            <div id="updatePaneList" class="list-group list-group-light">
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0 disabled" aria-current="true">
+                    Offers
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    10% Sale on T-shirts <i class="fa-solid fa-shirt" style="color: #ee3a3a;"></i>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    Brand Voucher <i class="fa-solid fa-rug" style="color: #eccf13;"></i>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    Redeem a coupon <i class="fa-solid fa-file-export" style="color: #23c736;"></i>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    Free Lottery !! <i class="fa-solid fa-ticket fa-rotate-90" style="color: #6dd0e8;"></i>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    Giveaways <i class="fa-solid fa-gifts" style="color: #da1692;"></i>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action px-3 border-0">
+                    Upto 30% discounts ! <i class="fa-regular fa-square-check" style="color: greenyellow;"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+  <!------->
+    <div id="rightPartition" class="container-fluid col-md-9 col-sm-12 ">
+
+        <div id="topHeader" class="container-fluid col-md-12 col-sm-12 row">
+
+            <h1 class="text-danger col-md-4 h1">Marketeer<sup style="font-size: 2 rem;">.com</sup></h1>
+        <!------>
+            <div class="dummy-div container col-md-4"></div>
+        <!------>
+            <div id="loginButtons" class="container h-100 col-md-4">
+                <a href="#" class="btn">Login</a>
+                <a href="#" class="btn">Register?</a>
+                <a href="#" class="btn">Admin Dashboard</a>
+            </div>
+        </div>
+      <!-------->
+        <nav id="menu-1" class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark col-md-12 ">
+          <!-- Container wrapper -->
+            <div class="container-fluid">
+
+          <!-- Toggle button -->
+              <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#menu-1-support" aria-controls="menu-1-support" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+
+          <!-- Collapsible wrapper -->
+              <div class="collapse navbar-collapse" id="menu-1-support">
+
+                <ul class="menu-1-ul-1 navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Outlets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Abouts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Feedback</a>
+                  </li>
+                </ul>
+
+            <!-- Icons -->
+                <ul class="navbar-nav d-flex flex-row me-1">
+                  <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart" style="color: burlywood;"></i></a>
+                  </li>
+                  <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f" style="color: #3776e1;"></i></a>
+                  </li>
+                </ul>
+
+            <!-- Search -->
+                <form class="w-auto">
+                  <input type="search" class="form-control" placeholder="Search Products" aria-label="Search">
+                </form>
+
+            <!-- Dropdown -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                      <i class="fa-solid fa-gears" style="color: #bbc2ce;"></i>
+                    </a>
+              <!-- Dropdown menu -->
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="#">Account</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Notifications</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Privacy</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Help</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+        </nav>
+      <!-------->
+        <div id="slider-2" class="container-fluid">
+
+            <div id="bannerSlider" class="carousel slide carousel-fade col-md-12" data-mdb-ride="carousel">
+              
+              <!-- Indicators -->
+              <div class="carousel-indicators">
+                <button type="button" data-mdb-target="#bannerSlider" data-mdb-slide-to="0" class="active" aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#bannerSlider" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-mdb-target="#bannerSlider" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            
+              <!-- Inner -->
+              <div class="carousel-inner rounded-5 shadow-4-strong">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                  <img src="./assets/image/banner/top-banner-1.jpg" class="d-block w-100"
+                    alt="Sunset Over the City" />
+                </div>
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img src="./assets/image/banner/top-banner-2.png" class="d-block w-100"
+                    alt="Canyon at Nigh" />
+                </div>
+                <!-- Single item -->
+                <div class="carousel-item">
+                  <img src="./assets/image/banner/top-banner-3.jpg" class="d-block w-100"
+                    alt="Cliff Above a Stormy Sea" />
+                </div>
+              </div>
+              <!-- Inner -->
+            
+              <!-- Controls -->
+              <button class="carousel-control-prev" type="button" data-mdb-target="#bannerSlider" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-mdb-target="#bannerSlider" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
+        </div>
+      <!--------->
+      <div id="cardRow-1" class="container row">
+
+          <div class="card cardRow-1-item-1">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/almond-oil.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Almond Oil</h5>
+                  <p class="card-text">250mL</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="card-text"><b>৳250.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-1-item-2">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/wildStone-soap.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Wild Stone (soap)</h5>
+                  <p class="card-text">100g</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                  </p>
+                  <p class="card-text"><b>৳70.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-1-item-3">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/nivea-lotion.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Nivea Body Lotion</h5>
+                  <p class="card-text">1.0L</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                  </p>
+                  <p class="card-text"><b>৳650.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-1-item-4">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/sunsilk-shampoo.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Sunsilk Shampoo</h5>
+                  <p class="card-text">250mL</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="card-text"><b>৳125.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          
+    
+      </div>
+      <!--------->
+      <div id="cardRow-2" class="container row">
+
+          <div class="card cardRow-2-item-1">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/BTearphone.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Bluetooth Earphone</h5>
+                  <p class="card-text">1pcs</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                  </p>
+                  <p class="card-text"><b>৳950.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-2-item-2">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/roccat-keyboard.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h6 class="card-title">Roccat RGB keybord</h6>
+                  <p class="card-text">1pcs</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                  </p>
+                  <p class="card-text"><b>৳2150.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-2-item-3">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/entqino-mouse.webp" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Entqino RGB Mouse</h5>
+                  <p class="card-text">3pcs</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                  </p>
+                  <p class="card-text"><b>৳4000.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          <div class="card cardRow-2-item-4">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                  <img src="./assets/image/products/SMwatch-xiomi.jpg" class="img-fluid card-img-top"/>
+                  <a href="#!">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </a>
+              </div>
+              <div class="card-body text-center">
+                  <h5 class="card-title">Xiomi Smart Watch</h5>
+                  <p class="card-text">1pcs</p>
+                  <p class="card-text">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                  </p>
+                  <p class="card-text"><b>৳1800.00</b></p>
+                  <a href="#!" class="btn btn-success btn-rounded mt-1 btn-outline-">
+                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i> Add to cart
+                  </a>
+              </div>
+          </div>
+      <!-------->
+          
+    
+      </div>
+      <!--------->
+      <div id="multiItemSlider-1" class="container row">
+
+
+        
+      </div>
+
+      
+
+
+    </div>
+  <!------->
+
+
+
+
+
+
+        
+
+
+
+<!-------------------contetnt ends--------------------------------->
+</div> <!--mainBodyWrapper ends-->
+</div> <!--wrapper ends-->
+<!--------MAIN JavaScript FILE-------->
+<script src="js/main.js"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

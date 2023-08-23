@@ -1,0 +1,96 @@
+body {
+    
+    background-color: red;
+}
+
+/*---1st PARENT DECLARATION-----*/
+#dashboardFullBody{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+/*---2nd PARENT DECLARATION-----*/
+#dashboardFullBody #sidebarMenu{
+    background-color: yellow ;
+}
+
+#dashboardFullBody #topHeader{
+    background-color: #151c6b;
+}
+
+
+/*----TopHeader----*/
+#dashboardFullBody #topHeader .navbar-nav > li > a > i,
+#dashboardFullBody #topHeader form > span i{
+    font-size: 22px;
+    color: white;
+}
+#dashboardFullBody #topHeader .navbar-nav > li > a > i:hover,
+#dashboardFullBody #topHeader form > span i:hover{
+   color: #148ed4; 
+}
+
+/*-----Sidebar------*/
+#dashboardFullBody #sidebarMenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+}
+
+
+#dashboardFullBody #sidebarMenu .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+#dashboardFullBody .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+#sidebarMenu .list-group ul li{
+    text-align: center;
+    color: cyan;
+    background-color: #06082e;
+}
+#sidebarMenu .list-group ul li:hover{
+    color: black;
+    background-color: yellow;
+}
+
+#sidebarMenu .list-group ul li a{
+    display: block;
+}
+
+
+
+
+
+
+
+/*---------@Media-Query---------*/
+@media (min-width: 991.98px) {
+    main {
+    padding-left: 240px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+}
